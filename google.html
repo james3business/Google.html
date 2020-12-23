@@ -2,6 +2,7 @@
 <html lang="en">
 
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
         <style>
             body {
                 margin: 0;
@@ -26,8 +27,8 @@
                 color: grey;
             }
 
-            .nav-links a:hover {
-                text-decoration: underline;
+            .nav-links:hover {
+                text-decoration: none;
             }
 
             .google #google_logo {
@@ -44,17 +45,34 @@
             }
 
             #form-search {
+                border-color: black;
                 border-radius: 25px;
                 width: 450px;
-                line-height: 32px;
+                line-height: 15px;
                 padding: 20px 10px;
             }
 
+            #form-search:hover {
+                background-color: rgb(240, 238, 238);
+            }
+
             .buttons {
-                border-radius: 15px;
                 text-align: center;
-                padding-top: 30px;
+                padding-top: 20px;
                 margin-bottom: 300px;
+            }
+
+            #google_search , #im_feeling_lucky {
+                background-color: #f8f9fa;
+                border-color: lightgray;
+                border-radius: 5px;
+                width: 150px;
+                height: 30px;
+                font-family: Arial, sans-serif;
+            }
+
+            #google_search:hover , #im_feeling_lucky:hover {
+                border-color: rgb(145, 144, 144);
             }
         </style>
         <title>Google Homepage</title>
@@ -71,7 +89,7 @@
         </header>
         
         <div class="google">
-            <a href="#" id="google_logo"><img src="https://i.inews.co.uk/content/uploads/2020/12/Screenshot-2020-12-01-at-09.47.45-640x360.png" alt="Google Logo"/></a>
+            <a href="#" id="google_logo"><img src="https://i.inews.co.uk/content/uploads/2020/12/Screenshot-2020-12-01-at-09.47.45-640x360.png" alt="Google Logo Decorated with Christmas Lights"/></a>
         </div>
 
         <div class="form">
