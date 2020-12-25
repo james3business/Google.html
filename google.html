@@ -10,9 +10,8 @@
         <header>
             <nav>
                 <ul id="nav_bar">
-                    <li class="nav_links" id="gmail"><a href="#">Gmail</a></li>
                     <li class="nav_links" id="images"><a href="googleimage.html">Images</a></li>
-                    <li class="nav_links" id="sign in"><a href="#">Sign In</a></li>
+                    <li class="nav_links" id="advanced_search"><a href="#">Advanced Search</a></li>
                 </ul>
             </nav>
         </header>
@@ -22,16 +21,14 @@
         </div>
 
         <div class="form">
-            <form>
+            <form action="https://google.com/search">
                 <label for="form-search"></label>
-                <input type="text" id="form-search" placeholder="Search Google">
+                <input type="text" id="form-search" name="q">
+                <div>
+                    <input type="submit" value="Google Search" id="google_search" class="button" name="btnK">
+                    <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky" class="button" name="btnI">
+                </div>
             </form>
-        </div>
-
-        <div class="buttons">
-            <input type="submit" value="Google Search" id="google_search">
-            <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
-        </div>
     </body>
 
 
